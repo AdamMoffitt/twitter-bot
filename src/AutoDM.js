@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hey ${name}! Happy ${dayName} and welcome to the family! I'm so happy you are here. I just released a new single, Pretty Pretty and I am soooo excited about it. I really think you will love it too. Give it a listen and tag me in a video of you showing off your best dance moves to Pretty Pretty for a chance to be in my new music video! \n 😊😊 `; // your message
+  return `Hey ${name}! Happy ${dayName} and welcome to the family! I'm so happy you're here. I just released a new single, Pretty Pretty, and I'm soooo excited about it. I really think you will love it too. Give it a listen at https://open.spotify.com/artist/7vpJOfq1d9nfBAiA2AEcmU and tag me in a video of you showing off your best dance moves to Pretty Pretty for a chance to be in my new music video! \n 😊😊 `; // your message
 };
 
 module.exports = AutoDM;
